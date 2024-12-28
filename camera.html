@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="img-src 'self' data:;  default-src 'self'; script-src 'self'">
+    <title>Camera!</title>
+  </head>
+  <body>
+    <h1>Camera Action</h1>
+
+    <video autoplay height="400px" width="400px"id="camera"></video>
+
+    <img id="image">
+
+    <button id="capture-image" >Capture Image</button>
+
+    <script src="camera.js" ></script>
+
+  </body>
+</html>
